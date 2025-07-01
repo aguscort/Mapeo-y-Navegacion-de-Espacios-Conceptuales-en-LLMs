@@ -1,4 +1,4 @@
-# **Proyecto:** Mapeo y Navegación de Espacios Conceptuales en Modelos de Lenguaje: De Ideologías Políticas a Actitudes Emergentes
+# **Proyecto:** Mapeo y navegación de espacios conceptuales en modelos de lenguaje: De ideologías políticas a actitudes emergentes
 
 ## **Objetivo General:**
 Investigar la factibilidad de identificar, aplicar y trazar "transformaciones" vectoriales en el espacio de activación de Modelos de Lenguaje Grandes (LLMs) para mapear cambios conceptuales entre posturas políticas, como conservadora y liberal, y revelar la arquitectura de estas actitudes dentro del modelo.
@@ -14,7 +14,7 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
 
 ## **Fases del Proyecto:**
 
-**Fase 1: Identificación de la Transformación entre Posturas Políticas**
+### **Fase 1: Identificación de la Transformación entre Posturas Políticas**
 
 1.  **Objetivo:** Averiguar la transformación que define la posición de una postura política conservadora frente a una posición liberal.
     *   **Metodología:**
@@ -24,7 +24,7 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
         *   **Localización de Ideologías:** Utilizando técnicas como **Deep Scan** y análisis de componentes principales (PCA), se identificarán las capas y subespacios de activación donde las ideologías políticas están más distintamente localizadas. La investigación de Cintas et al. ya indica que las ideologías políticas se encuentran en regiones "más distintas" dentro del espacio de representación.
         *   **Definición de la Transformación:** La "transformación" entre una postura conservadora y una liberal se definirá como un conjunto específico de características SAE o un "vector de dirección" en el espacio de activación que capture la diferencia conceptual entre ambas. Esto se logrará identificando las características que se activan diferencialmente o que cambian de magnitud al pasar de contextos conservadores a liberales.
 
-**Fase 2: Aplicación y Exploración de Conceptos Relacionados**
+### **Fase 2: Aplicación y Exploración de Conceptos Relacionados**
 
 2.  **Objetivo:** Dada la transformación identificada, aplicarla a conceptos básicos relacionados con la postura política original, y revelar cuáles son los conceptos a los que se llega.
     *   **Metodología:**
@@ -33,7 +33,7 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
         *   **Revelación de Conceptos Resultantes:** Se utilizarán métodos de **autointerpretación**, donde un LLM se encarga de generar explicaciones legibles de las características que se activan en las nuevas representaciones. Esto permitirá entender cómo los conceptos como "economía" cambian de "economía conservadora" a "economía liberal" en el modelo, y cuáles son las nuevas ideas o asociaciones que emergen. Se buscarán descripciones del modelo sobre sus propias "creencias" y "deseos" subyacentes.
         *   **Análisis de Comportamiento:** Se evaluará si el modelo, al ser "steered" hacia la nueva postura, cambia su comportamiento al responder preguntas sobre esos conceptos, por ejemplo, si un modelo previamente conservador ahora genera respuestas con un sesgo liberal sobre "salud".
 
-**Fase 3: Mapeo Conceptual y Rutas de Transformación**
+### **Fase 3: Mapeo Conceptual y Rutas de Transformación**
 
 3.  **Objetivo:** Determinar si estas transiciones suponen el camino de menor resistencia, y componiendo las transformaciones de diferentes componentes, construir un mapa conceptual dinámico de las actitudes.
     *   **Metodología:**
@@ -42,3 +42,18 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
             *   Se utilizará un enfoque de **"model-diffing"**, comparando las activaciones del modelo en diferentes puntos a lo largo de la "transformación" (ej., 0% liberal, 25% liberal, 50% liberal, etc.). Esto permitirá identificar qué características SAE se activan o modifican en cada etapa, construyendo una "trayectoria conceptual".
             *   La descomposición de activaciones en un gran número de características interpretables por los SAEs permitirá una visión granular de cómo los diferentes "componentes" conceptuales (ej., la perspectiva sobre impuestos, la regulación ambiental, etc.) se desplazan.
             *   Se generarán visualizaciones (potencialmente utilizando métodos como UMAP para la reducción de dimensionalidad) que representen este **"mapa conceptual"**, mostrando no solo la arquitectura de la actitud original y la de destino, sino también los puntos intermedios y las relaciones entre los conceptos que evolucionan durante la transformación. Esto podría revelar fenómenos como el "feature splitting" (donde características amplias se refinan en otras más específicas) a medida que la postura se desplaza.
+
+### **Fase 4: Transferencia y Validación de Transformaciones Vectoriales para Intervenciones Persuasivas Humanas**
+
+4. **Objetivo:** Desarrollar y validar técnicas de persuasión humana basadas en las transformaciones vectoriales identificadas en las fases anteriores, estableciendo rutas empíricamente fundamentadas para el cambio de actitudes que repliquen los caminos de menor resistencia descubiertos en el espacio conceptual de los LLMs [Punto 6].
+
+   **Metodología:**
+   - **Traducción de Vectores de Transformación:** Se mapearán las transformaciones vectoriales identificadas en las Fases 1-3 hacia "vectores de persuasión" aplicables a cognición humana. Utilizando datos de neuroimagen de estudios previos de persuasión, se calibrarán las transformaciones del LLM con patrones de activación cerebral humana en regiones críticas (corteza prefrontal medial, polos temporales, unión temporo-parietal). La evidencia de Google Research demuestra que las representaciones internas de LLMs se alinean con patrones neurales humanos en procesamiento del lenguaje, proporcionando la base para esta transferencia.
+
+   - **Diseño de Intervenciones Persuasivas Algorítmicas:** Basándose en los perfiles psicológicos individuales y las rutas de transformación conceptual identificadas, se generarán mensajes persuasivos personalizados que implementen las transformaciones vectoriales específicas. La secuenciación seguirá las "rutas de menor resistencia" mapeadas en la Fase 3, respetando la arquitectura conceptual natural del cambio de actitudes. Los estudios multicéntricos (N = 1788) confirman que mensajes generados algorítmicamente por ChatGPT exhiben 81.2% mayor probabilidad de persuasión que intervenciones humanas cuando se utiliza personalización.
+
+   - **Validación Experimental Controlada:** Se implementará un protocolo experimental con N = 600 participantes distribuidos en grupos experimentales y control. Las medidas incluirán evaluación basal de actitudes políticas, neuroimagen funcional (fMRI) en submuestra (n = 120), exposición a intervenciones diseñadas según transformaciones vectoriales, y seguimiento longitudinal a 1, 4, y 12 semanas. La validación neural utilizará Dynamic Causal Modeling para evaluar cambios en conectividad efectiva entre regiones de persuasión, y algoritmos de machine learning para decodificar estados de actitud desde patrones cerebrales.
+
+   - **Optimización mediante Retroalimentación Adaptativa:** Se desarrollarán sistemas de retroalimentación en tiempo real que ajusten las intervenciones basándose en respuestas fisiológicas (EEG, conductancia de la piel) y comportamentales. Los algoritmos de aprendizaje por refuerzo optimizarán la secuencia e intensidad de transformaciones vectoriales según la respuesta individual, estableciendo protocolos de personalización que superen aproximaciones genéricas tradicionales.
+
+   - **Análisis de Correspondencia Vector-Neural:** Se verificará la hipótesis central de que las transformaciones vectoriales identificadas en LLMs predicen cambios neurales medibles en redes de persuasión humana. Utilizando análisis de similaridad representacional (RSA) y decodificación neural, se establecerá la correspondencia cuantitativa entre direcciones vectoriales del modelo y modificaciones en patrones de activación cerebral, validando así la transferibilidad computacional entre sistemas artificiales y biológicos de procesamiento conceptual.
