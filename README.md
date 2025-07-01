@@ -61,15 +61,28 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
         *   **Análisis de Correspondencia Vector-Neural:** Se verificará la hipótesis central de que las transformaciones vectoriales identificadas en LLMs predicen cambios neurales medibles en redes de persuasión humana. Utilizando análisis de similaridad representacional y decodificación neural, se establecerá la correspondencia cuantitativa entre direcciones vectoriales del modelo y modificaciones en patrones de activación cerebral, validando así la transferibilidad computacional entre sistemas artificiales y biológicos de procesamiento conceptual.
         *   **Optimización mediante Retroalimentación Adaptativa:** Se desarrollarán sistemas de retroalimentación que ajusten las intervenciones basándose en respuestas fisiológicas y comportamentales en tiempo real. Los algoritmos de aprendizaje por refuerzo optimizarán la secuencia e intensidad de transformaciones vectoriales según la respuesta individual, estableciendo protocolos de personalización que superen aproximaciones genéricas tradicionales en eficacia persuasiva.
      
-### Bibliografia  
-    *   Betley, J., Bao, X., Soto, M., Sztyber-Betley, A., Chua, J., & Evans, O. (2025). Tell me about yourself: LLMs are aware of their learned behaviors. http://arxiv.org/abs/2501.11120
-    *   Betley, J., Tan, D., Warncke, N., Sztyber-Betley, A., Bao, X., Soto, M., Labenz, N., & Evans, O. (2025). Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs. http://arxiv.org/abs/2502.17424
-    *   Bhandari, P., Fay, N., Wise, M., Datta, A., Meek, S., Naseem, U., & Nasim, M. (2025). Can LLM Agents Maintain a Persona in Discourse? http://arxiv.org/abs/2502.11843
-    *   Bricken - 2023 - Towards Monosemanticity Decomposing Language Mode. (n.d.).
-    *   Chua, J., Betley, J., Taylor, M., & Evans, O. (2025a). Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models. http://arxiv.org/abs/2506.13206
-    *   Cintas, C., Rateike, M., Miehling, E., Daly, E., & Speakman, S. (2025). Localizing Persona Representations in LLMs. http://arxiv.org/abs/2505.24539
-    *   Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023). Sparse Autoencoders Find Highly Interpretable Features in Language Models. http://arxiv.org/abs/2309.08600
-    *   Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., & Wu, J. (2024). Scaling and evaluating sparse autoencoders. http://arxiv.org/abs/2406.04093
-    *   Li, A., Chen, H., Namkoong, H., & Peng, T. (2025). LLM Generated Persona is a Promise with a Catch. http://arxiv.org/abs/2503.16527
-    *   Treutlein, J., Choi, D., Betley, J., Marks, S., Anil, C., Grosse, R., & Evans, O. (2024). Connecting the Dots: LLMs can Infer and Verbalize Latent Structure from Disparate Training Data. http://arxiv.org/abs/2406.14546
-    *   Wang, M., la Tour, T. D., Watkins, O., Makelov, A., Chi, R. A., Miserendino, S., Heidecke, J., Patwardhan, T., & Mossing, D. (2025). Persona Features Control Emergent Misalignment. http://arxiv.org/abs/2506.19823
+Tu bibliografía está bien estructurada, pero aquí tienes una versión mejorada con mayor consistencia en el formato:
+
+### Bibliografía
+
+* Betley, J., Bao, X., Soto, M., Sztyber-Betley, A., Chua, J., & Evans, O. (2025). Tell me about yourself: LLMs are aware of their learned behaviors. *arXiv preprint arXiv:2501.11120*. http://arxiv.org/abs/2501.11120
+
+* Betley, J., Tan, D., Warncke, N., Sztyber-Betley, A., Bao, X., Soto, M., Labenz, N., & Evans, O. (2025). Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs. *arXiv preprint arXiv:2502.17424*. http://arxiv.org/abs/2502.17424
+
+* Bhandari, P., Fay, N., Wise, M., Datta, A., Meek, S., Naseem, U., & Nasim, M. (2025). Can LLM Agents Maintain a Persona in Discourse? *arXiv preprint arXiv:2502.11843*. http://arxiv.org/abs/2502.11843
+
+* Bricken, T., Templeton, A., Batson, J., Chen, B., Jermyn, A., Conerly, T., ... & Olah, C. (2023). Towards Monosemanticity: Decomposing Language Models With Dictionary Learning. *Transformer Circuits Thread*. https://transformer-circuits.pub/2023/monosemantic-features
+
+* Chua, J., Betley, J., Taylor, M., & Evans, O. (2025). Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models. *arXiv preprint arXiv:2506.13206*. http://arxiv.org/abs/2506.13206
+
+* Cintas, C., Rateike, M., Miehling, E., Daly, E., & Speakman, S. (2025). Localizing Persona Representations in LLMs. *arXiv preprint arXiv:2505.24539*. http://arxiv.org/abs/2505.24539
+
+* Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023). Sparse Autoencoders Find Highly Interpretable Features in Language Models. *arXiv preprint arXiv:2309.08600*. http://arxiv.org/abs/2309.08600
+
+* Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., & Wu, J. (2024). Scaling and evaluating sparse autoencoders. *arXiv preprint arXiv:2406.04093*. http://arxiv.org/abs/2406.04093
+
+* Li, A., Chen, H., Namkoong, H., & Peng, T. (2025). LLM Generated Persona is a Promise with a Catch. *arXiv preprint arXiv:2503.16527*. http://arxiv.org/abs/2503.16527
+
+* Treutlein, J., Choi, D., Betley, J., Marks, S., Anil, C., Grosse, R., & Evans, O. (2024). Connecting the Dots: LLMs can Infer and Verbalize Latent Structure from Disparate Training Data. *arXiv preprint arXiv:2406.14546*. http://arxiv.org/abs/2406.14546
+
+* Wang, M., la Tour, T. D., Watkins, O., Makelov, A., Chi, R. A., Miserendino, S., Heidecke, J., Patwardhan, T., & Mossing, D. (2025). Persona Features Control Emergent Misalignment. *arXiv preprint arXiv:2506.19823*. http://arxiv.org/abs/2506.19823
