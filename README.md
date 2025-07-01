@@ -61,7 +61,6 @@ Este proyecto se basa en la premisa de que, si los LLMs representan estas ideolo
         *   **Análisis de Correspondencia Vector-Neural:** Se verificará la hipótesis central de que las transformaciones vectoriales identificadas en LLMs predicen cambios neurales medibles en redes de persuasión humana. Utilizando análisis de similaridad representacional y decodificación neural, se establecerá la correspondencia cuantitativa entre direcciones vectoriales del modelo y modificaciones en patrones de activación cerebral, validando así la transferibilidad computacional entre sistemas artificiales y biológicos de procesamiento conceptual.
         *   **Optimización mediante Retroalimentación Adaptativa:** Se desarrollarán sistemas de retroalimentación que ajusten las intervenciones basándose en respuestas fisiológicas y comportamentales en tiempo real. Los algoritmos de aprendizaje por refuerzo optimizarán la secuencia e intensidad de transformaciones vectoriales según la respuesta individual, estableciendo protocolos de personalización que superen aproximaciones genéricas tradicionales en eficacia persuasiva.
      
-Tu bibliografía está bien estructurada, pero aquí tienes una versión mejorada con mayor consistencia en el formato:
 
 ### Bibliografía
 
